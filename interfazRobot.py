@@ -148,6 +148,7 @@ class MainWindow(QWidget):
         else:
             print("Los campos de velocidad y pulsos no pueden estar vacíos.")
 
+
     def mostrar_dato_recibido(self):
         if self.ser.in_waiting > 0:
             received_data = self.ser.readline().decode().strip()
