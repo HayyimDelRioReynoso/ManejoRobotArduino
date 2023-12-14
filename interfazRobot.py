@@ -8,6 +8,7 @@ baud_rate = 9600
 
 # Variable global para almacenar el sentido
 sentido = ""
+
 sentido2 = ""
 
 class MainWindow(QWidget):
